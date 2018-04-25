@@ -17,10 +17,10 @@ ENV SDB_USER sdbadmin
 
 # Get Sequoiadb Docker Package from local.
 # wget http://p7qeo49zj.bkt.clouddn.com/sequoiadb_docker_2.8.5.tar.gz
-ONBUILD ADD sequoiadb_docker_$SDB_PKG_VER.tar.gz /
+ADD sequoiadb_docker_$SDB_PKG_VER.tar.gz /
 
 # Get Sequoiadb Docker Package from remote.
-# ONBUILD ADD http://p7qeo49zj.bkt.clouddn.com/sequoiadb_docker_$SDB_PKG_VER.tar.gz /
+# ADD http://p7qeo49zj.bkt.clouddn.com/sequoiadb_docker_$SDB_PKG_VER.tar.gz /
 
 
 # Config SequoiadbDB.
