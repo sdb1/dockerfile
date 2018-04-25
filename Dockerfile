@@ -11,8 +11,8 @@ LABEL maintainer="dihao@sequoiadb.com"
 LABEL website="http://www.sequoiadb.com"
 LABEL description="This sequoiadb docker build file"
 
-# SequoiaDB version.
-ARG SDB_PKG_VER 2.8.5
+# SequoiaDB version.Now sequoiadb support version is "2.8.5".
+ARG SDB_PKG_VER
 ENV SDB_USER sdbadmin
 
 # Get Sequoiadb Docker Package from local.
