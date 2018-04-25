@@ -36,7 +36,7 @@ EXPOSE 11790
 EXPOSE 11810
 
 # Config SequoiadbDB User.
-USER sdbadmin
+USER $SDB_USER
 
 
 # Define working directory.
