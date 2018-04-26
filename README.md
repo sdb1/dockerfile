@@ -32,6 +32,8 @@ sequoiadb dockerfile for build docker image
 
 ##### 6. 创建sequoiadb standalone的服务(手动交互方式使用sequoiadb docker)
 > $ docker run -it sequoiadb:2.8.5 /bin/bash
+
 > sdbadmin@491ada92f91f:~ $ /opt/sequoiadb/sequoiadb start
+
 > sdbadmin@491ada92f91f:~ $ /opt/sequoiadb/bin/sdb
 
