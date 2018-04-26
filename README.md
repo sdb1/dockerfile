@@ -15,7 +15,7 @@ sequoiadb dockerfile for build docker image
 
 
 ##### 3. 下载sequoiadb的2.8.5版本的docker安装包
-> $ wget -o sdb_image/sequoiadb_docker_2.8.5.tar.gz http://p7qeo49zj.bkt.clouddn.com/sequoiadb_docker_2.8.5.tar.gz
+> $ wget -o sdb_image/sequoiadb_docker_2.8.5-server.tar.gz http://p7qeo49zj.bkt.clouddn.com/sequoiadb_docker_2.8.5-server.tar.gz
 
 
 ##### 4. 创建sequoiadb base的镜像
