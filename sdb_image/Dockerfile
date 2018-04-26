@@ -33,7 +33,7 @@ EXPOSE 11810
 # Config SequoiadbDB.
 
 # Start SequoiaDB Cluster Manager.
-CMD ["/opt/sequoiadb/sequoiadb","start"]
+CMD ["/opt/sequoiadb/sequoiadb","daemon"]
 
 # Config SequoiadbDB User.
 USER $SDB_USER

@@ -26,7 +26,7 @@ sequoiadb dockerfile for build docker image
 > $ docker build sdb_image -t sequoiadb:2.8.5
 
 
-##### 6. 用服务的方式启动sequoiadb的容器（需要更新tail -l /opt/sequoiadb/conf/log/sdbcm.log)
+##### 6. 用服务的方式启动sequoiadb的容器
 > $ docker run -d sequoiadb:2.8.5
 
 
