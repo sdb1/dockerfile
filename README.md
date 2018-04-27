@@ -1,7 +1,9 @@
+
 ## dockerfile
 
 sequoiadb dockerfile for build docker image
 
+You can download the docker image directly from https://hub.docker.com/r/sdb1/sequoiadb/
 
 ## 使用说明：
 
